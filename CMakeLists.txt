@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.16.1)
 project(libatmesh Fortran)
 
+
+list(APPEND CMAKE_MODULE_PATH list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake))
 find_package(MPI REQUIRED)
 find_package(NetCDF REQUIRED C Fortran)
 find_package(ESMF MODULE REQUIRED)
