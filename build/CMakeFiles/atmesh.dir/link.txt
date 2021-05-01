@@ -1,2 +1,0 @@
-/opt/apps/gcc/5.4.0/bin/ar qc libatmesh.a  CMakeFiles/atmesh.dir/src/atmesh.F90.o CMakeFiles/atmesh.dir/src/atmesh_mod.F90.o
-/opt/apps/gcc/5.4.0/bin/ranlib libatmesh.a
